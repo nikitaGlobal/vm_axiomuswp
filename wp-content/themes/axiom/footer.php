@@ -40,8 +40,9 @@
 <?php } ?>
 					<div class="footer__contacts">
 						<?php
+						ob_start();
 							wp_nav_menu([
-								'menu' => 'footer-menu',
+								'menu' => 'big-menu',
 								'container' => false,
 								'menu_class' => 'footer__contact-list',
 								'echo' => true,
@@ -49,6 +50,8 @@
 								'items-wrap' => '<ul>%3$s</ul>',
 								'depth' => 10,
 							]);
+							$menu = ob_get_clean();
+							echo str_replace('main-nav__link-container', 'footer__contact-list-item', $menu);
 						?>
 					</div>
 
