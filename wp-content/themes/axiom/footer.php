@@ -14,7 +14,7 @@
 			<div class="footer__upper-cont">
 				<div class="container">
 					<div class="logo-cont">
-						<h2 class="footer__logo"><a href="<?php get_template_directory_uri();?>/main-page/" class="footer__logo-img">Axiom</a></h2>
+						<h2 class="footer__logo"><a href="<?php echo get_site_url();?>" class="footer__logo-img">Axiom</a></h2>
 						<p class="footer__address"><?php the_field('adress');?></p>							
 					</div>
 <?php
