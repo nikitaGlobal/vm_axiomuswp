@@ -25,6 +25,8 @@
                         'depth' => 10,
                     ]);
                 ?>
+				<?php if (2==1) { ?>
 				<a href="#contact-us" class="contact-btn anchor-trigger">Contact us</a>
+				<?php } ?>
 			</div><!--.container-->
 		</header><!--.header-->
