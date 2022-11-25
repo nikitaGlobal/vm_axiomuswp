@@ -17,7 +17,9 @@
 						<h2 class="footer__logo"><a href="<?php get_template_directory_uri();?>/main-page/" class="footer__logo-img">Axiom</a></h2>
 						<p class="footer__address"><?php the_field('adress');?></p>							
 					</div>
-
+<?php
+					if (2==1) {
+						?>
 					<div class="footer__services">
 						<h3 class="footer__title">Services</h3>
 						<div class="footer__services-cont">
@@ -35,7 +37,7 @@
 						?>
 						</div>
 					</div>
-
+<?php } ?>
 					<div class="footer__contacts">
 						<?php
 							wp_nav_menu([
