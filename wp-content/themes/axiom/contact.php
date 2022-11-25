@@ -32,6 +32,7 @@
 										<p>
 											We are no ordinary insurance and reinsurance broker. Founded over twenty years ago, we are one the region’s oldest independent, privately owned insurance broker.
 										</p>
+										<?php if (2==1) { ?>
 										<div class="contacts__social-list">
 											<div class="contacts__social-item">
 												<a href="<?php the_field('instagram');?>" class="contacts__social-link"><img src="<?php echo bloginfo('template_url')?>/img/instagram.png" alt=""></a>
@@ -43,13 +44,14 @@
 												<a href="<?php the_field('twitter');?>" class="contacts__social-link"><img src="<?php echo bloginfo('template_url')?>/img/twitter.png" alt=""></a>
 											</div>
 										</div>
+										<?php } ?>
 									</div>
 								</div>
 							</div><!--.contacts-->
 						</div><!-- end 100% block -->
 					</div><!-- end row -->
 				</div><!--.page-content-->
-
+<?php if (2==1) {?>
 				<div class="clients">
 					<h2 class="clients__title"><span class="clients__title-cont">Clients</span></h2>
 					<div class="clients__list">
@@ -75,6 +77,7 @@
 						</div>
 					</div>
 				</div>
+<?php } ?>
 			</div><!--.container-->
 		</main><!--.main-content-->
 

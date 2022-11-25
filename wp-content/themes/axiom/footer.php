@@ -1,3 +1,4 @@
+<?php if (2==1) { ?>
 <div class="contact-us" id="contact-us">
 			<div class="container">
 				<h2 class="contact-us__title">Contact us</h2>
@@ -7,8 +8,7 @@
 				</div><!--.contact-us__cont-->
 			</div><!--.container-->
 		</div><!--.contact-us-->
-
-
+<?php } ?>
 
 <footer class="footer" id="footer">
 			<div class="footer__upper-cont">
